@@ -1,0 +1,107 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header {
+    /* background-color: red; */
+    padding: 15px;
+    background-image:linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%),  url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+
+    position: relative;
+}
+.header .boxes .logo h1 {
+    color: white;
+    font-weight: 800;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+        "Helvetica Neue", sans-serif;
+}
+.header .boxes {
+    justify-content: space-between;
+    align-items: center;
+}
+.header .boxes .header-text ul li {
+    list-style: none;
+    margin-left: 12px;
+}
+.header .boxes .header-text ul li a {
+    text-decoration: none;
+    color: white;
+}
+.header .bottom-header {
+    text-align: center;
+    padding-top: 10%;
+    /* z-index: 5;
+    position: relative; */
+}
+.header .bottom-header h1 {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 400;
+    width: 60%;
+    margin: 25px auto;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+        "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.header .bottom-header hr {
+    /* width: 100px;
+    margin: auto;
+    height: 4px;
+    border: none;
+    background-color: tomato; */
+    width: 5%;
+    height: 5px;
+    margin: 20px auto;
+    background-color: tomato;
+    border: none;
+    border-radius: 15px;
+}
+.header .bottom-header p {
+    color: white;
+    font-size: 17px;
+    width: 40%;
+    margin:30px auto;
+}
+.header .bottom-header a{
+    padding: 20px 30px;
+    background-color: #F4623A;
+    border-radius: 8mm;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 15px;
+    display: inline-block;
+    margin-top: 20px;
+    transform: translateY(0);
+}
+.header .bottom-header a:hover{
+    transform: translateY(-5px);
+    background-color: #c4421e;
+    box-shadow: 0 7px 10px 0  grey;
+
+    
+}
+/* .header .grey-box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(128, 128, 128, 0.329);
+} */
